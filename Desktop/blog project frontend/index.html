@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>Home</title>
+    <style>
+            .nav-link:hover{
+                background:WHITE;
+            }   
+    </style>
+</head>
+<body>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-md" style="background: #124e4e;">
+        <div class="container-fluid" style="padding: 15px 48px;">   
+            <a href="" class="navbar-brand">
+                <h2 style="color:wheat;border:1px whitesmoke;">MY<span style="color: rgba(27,208,237,1);">BLOG</span></h2>
+            </a>
+            <!--mobile view-->
+            <button class="navbar-toggler" data-bs-target="#a" data-bs-toggle="collapse" style="background: wheat;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--menu-->
+            <div class="navbar-collapse collapse" id="a" style="text-align:center;">
+            <ul class="navbar-nav ms-auto c ul">
+                <li><a href="index.html" class="nav-link" style="color: #1bd0ed;" >HOME</a></li>
+                <li><a href="about.html" class="nav-link" style="color: #1bd0ed;">ABOUT</a></li>
+                <li><a href="bloglist.html" class="nav-link" style="color: #1bd0ed;">BLOG</a></li>
+                <li><a href="contact.html" class="nav-link" style="color: #1bd0ed;">CONTACT</a></li>
+                <li><a href="login.html" class="nav-link" style="color: #1bd0ed;">CREATE YOUR BLOG</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <!--navbar end-->
+
+    <!--slider start-->
+    <div class="carousel slide" data-bs-ride="carousel" id="z">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#z" data-slide-to="0" class="active"></li>
+            <li data-bs-target="#z" data-slide-to="1"></li>
+        </ol>
+        <!--carousel inner-->
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="image/carousel1.jpg" class="w-100"alt="first slide" style="height: 700px;">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="image/carousel2.jpg" class="w-100" alt="second slide" style="height: 700px;">
+            </div>
+        </div>
+        <!--carousel inner end-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#z" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#z" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!--slider end-->
+
+    <!--blog start-->
+
+    <section class="mt-4 pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-lg h-100">
+                        <img src="image/carousel1.jpg" height="200">
+                        <div class="card-body">
+                            <h5 class="d-flex justify-content-between">admin<span>01/06/2023</span></h5>
+                            <p style="font-weight: bold;">BLOG OF THE DAY</p>
+                            <p class="pt-2">this is the first blog of my blog website. 
+                                blog page contain multiple things. bunch of news.
+                                this is what we watch next morning and make it valuable for people</p>
+                            <a href="detail1.html" class="btn btn-danger mb-4">read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg h-100">
+                        <img src="image/blog1.avif" height="200">
+                        <div class="card-body">
+                            <h5 class="d-flex justify-content-between">admin<span>02/06/2023</span></h5>
+                            <p style="font-weight: bold;text-transform: uppercase;">Odisha Train Accident:</p>
+                            <p class="pt-2">The horrific train accidents that happened in Odisha on late Friday evening
+                                 took lives of more than 230 people while over 900 were injured. 
+                                 THe accident involved the Bengaluru-Howrah Superfast Express</p>
+                                 <a href="detail.html" class="btn btn-danger mb-4">read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg h-100">
+                        <img src="image/blog2.jpg" height="200">
+                        <div class="card-body">
+                            <h5 class="d-flex justify-content-between">admin<span>03/06/2023</span></h5>
+                            <p style="font-weight: bold;text-transform: uppercase;">Wrestlers’ protest: 
+                                Trust police probe, says Anurag Thakur; Tikait calls khap meet today</p>
+                            <p class="pt-2">A DAY after the wrestlers took their protest to Haridwar — where they 
+                                threatened to ‘immerse’ their medals in the Ganga</p>
+                                <a href="detail.html" class="btn btn-danger mb-4">read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card shadow-lg h-100">
+                        <img src="image/blog3.jpeg" height="200">
+                        <div class="card-body">
+                            <h5 class="d-flex justify-content-between">admin<span>03/06/2023</span></h5>
+                            <p style="font-weight: bold;text-transform: uppercase;">Five guarantees to be implemented this financial year 
+                                Karnataka CM Siddaramaiah</p>
+                            <p class="pt-2">he Congress government was under pressure from the Opposition parties over the implementation 
+                            and approval from the first cabinet on May 19</p>
+                            <a href="detail.html" class="btn btn-danger mb-4">read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card shadow-lg h-100">
+                        <img src="image/blog4.jpg" height="200">
+                        <div class="card-body">
+                            <h5 class="d-flex justify-content-between">umesh prajapati<span>04/06/2023</span></h5>
+                            <p style="font-weight: bold;text-transform: uppercase;">
+                                Heavy exchange of fire again in Manipur; at least 16 injured, say police</p>
+                            <p class="pt-2">At least 16 people were injured in “heavy exchange of fire” 
+                                in Phayeng area of Imphal East, bordering Kangpokpi district,</p>
+                                <a href="detail.html" class="btn btn-danger mb-4">read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card shadow-lg h-100">
+                        <img src="image/blog5.jpg" height="200">
+                        <div class="card-body">
+                            <h5 class="d-flex justify-content-between">umesh<span>04/06/2023</span></h5>
+                            <p style="font-weight: bold;text-transform: uppercase;">
+                                N Chandrababu Naidu meets Shah amid talk of TDP interest in getting back to NDA fold</p>
+                            <p class="pt-2">The BJP leadership has made Telangana the party's focus in its 'Mission South' and 
+                                has been making inroads in local body elections in the state.</p>
+                                <a href="detail.html" class="btn btn-danger mb-4">read more...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--blog end-->
+
+    <br>
+    <center><a href="bloglist.html" class="btn btn-dark rounded-0 px-4 mt-4">view more</a></center>
+
+    <!--footer start-->
+    <section class="mt-5" style="background: #124e4e;">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="image/footer1.jpg" height="380px" width="100%" style="border-radius: 200px;border-color: black;">
+                </div>
+                <div class="col-md-7" style="padding-left: 30px;">
+                    <h1 style="color: white;"><span style="color:#1bd0ed">CONTACT</span>  US</h1>
+                    <p style="color: white;">We're a team focusing on redefining the way the hospitality industry works by bringing
+                        in concept based restaurants across India. We are truly committed to catering to the
+                        ever-changing cosmopolitan taste of the customer and revolutioning the F & B industry!</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 style="color: #1bd0ed;">Address</h2>
+                                <p style="color: white;">Q.N. H-2, PHE Colony ,Behind IIITM College  (Gwalior)</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h2 style="color: #1bd0ed;">Franchise Enquiry</h2>
+                                <p style="color: white;">Mobile: <b style="color: #1bd0ed;"> +91 7000799041</b></p>
+                                <p style="color: white;">E-mail: <b style="color: #1bd0ed;"> uk173508@gmail.com</b></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 style="color: #1bd0ed;">Hr Enquiry</h2>
+                                <p style="color: white;">Mobile:<b style="color: #1bd0ed;"> +91 7000728525</b></p>
+                                <p style="color: white;">E-mail:<b style="color: #1bd0ed;"> Hr@myblog.in</b></p>
+                            </div>
+                            <div class="col-md-6">
+                                <h2 style="color: #1bd0ed;">Other Enquiry</h2>
+                                <p style="color: white;">E-mail:<b style="color: #1bd0ed;"> other@myblog.in</b></p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section><!--footer end-->
+</body>
+</html>
